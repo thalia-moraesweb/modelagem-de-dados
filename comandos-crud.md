@@ -100,3 +100,11 @@ ON produtos.fabricante_id = fabricantes.id;
 -- ON: comando para indicar a maneira como as tabelas são juntadas 
 -- AS: comando que permite dar um apelido para as colunas 
 
+## UPDATE 
+UPDATE fabricantes SET nome = 'LG do Brasil'
+WHERE id = 4; -- SEMPRE USAR O WHERE, SEMPRE DÊ UMA CONDIÇÃO SEM ELA TODAS AS INFORMAÇÕES MUDA TORNANDO TODAS IGUAIS 
+
+
+## DELETE
+DELETE FROM produtos
+WHERE id = 5; -- SEMPRE USAR O WHERE, SEMPRE DÊ UMA CONDIÇÃO
